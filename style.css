@@ -48,6 +48,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* Header CSS starts */
@@ -170,6 +171,7 @@ input{
     margin-bottom: 16px;
     display: block;
     border-radius: 8px;
+    color: white;
 }
 
 .footer-flex{
