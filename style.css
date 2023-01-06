@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Header CSS starts */
+
+.header{
+    background-image: url('./images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1600px;
+    height: 809px;
+    margin-bottom: 130px;
+}
+
+.header-content{
+    padding: 216px 230px 365px 845px;
+    text-align: right;
+}
+
+.header-h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 24px;
+}
+
+.header-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.primary-btn{
+    background-color: #F15B22;
+    color: white;
+    width: 160px;
+    height: 64px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* Header CSS starts */
+
+.my-failures{
+    padding: 0px 206px;
+    width: 1600px;
+    height: 809px;
+    margin-bottom: 20px;
+}
+
+.my-failures-flex{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.my-failures-contents{
+    margin-top: 135px;
+}
+
+.my-failures-contents h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.my-failures-contents p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.my-failures-inside{
+    margin-top: 10px;
+}
+
+/* My Plans Section CSS */
+
+.my-plan{
+    padding: 0px 203px;
+    text-align: center;
+}
+
+.my-plan-h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.my-plan-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+}
+
+.plans{
+
+}
+
+.plans h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plans p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #737272;
+}
+
+/* Mindset Section CSS */
+
+.mindset{
+    margin-top: 120px;
+    margin-bottom: 130px;
+    padding: 0px 235px;
+}
+
+.mindset-content{
+    padding: 64px 64px;
+    border: none;
+    border-radius: 7px;
+    background-image: url('./images/watch.png'),url("./images/gradient2.png");
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mindset-content h1{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+
+.btn2{
+    background-color: white;
+    color: #F15B22;
+}
+
+/* Footer Section CSS */
+
+.footer{
+    background-color: black;
+    color:white;
+    padding: 130px 230px;
+}
+
+input{
+    margin-top: 31px;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid white;
+    width: 325px;
+    margin-bottom: 16px;
+    display: block;
+    border-radius: 8px;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
