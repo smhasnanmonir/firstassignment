@@ -51,7 +51,7 @@
     cursor: pointer;
 }
 
-/* Header CSS starts */
+/* My failures CSS starts */
 
 .my-failures{
     padding: 0px 206px;
@@ -85,6 +85,14 @@
 
 .my-failures-inside{
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.my-failures-inside img{
+    width: 16px;
+    margin-right: 10px;
 }
 
 /* My Plans Section CSS */
@@ -97,7 +105,7 @@
 .my-plan-h1{
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .my-plan-flex{
@@ -107,9 +115,6 @@
     gap: 86px;
 }
 
-.plans{
-
-}
 
 .plans h1{
     font-weight: 700;
@@ -123,10 +128,67 @@
     color: #737272;
 }
 
+
+/* If works CSS starts */
+
+
+.if-works{
+    margin-top: 70px;
+}
+
+.if-works-h1{
+    font-weight: 900px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.if-works-p{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #757575;
+}
+
+.if-works-flex{
+    display: flex;
+    padding: 50px 200px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.if-works-flex h1{
+    margin: 10px 0px;
+}
+
+.if-works-bg{
+    padding: 50px 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.if-works-bg p{
+    color: #757575;
+}
+
+
+.if-works-bg:nth-child(1){
+    background-color: #f1f3f5;
+}
+
+.if-works-bg:nth-child(2){
+    background-color: #ffe3e3;
+}
+
+.if-works-bg:nth-child(3){
+    background-color: #fff3bf;
+}
+
+
 /* Mindset Section CSS */
 
 .mindset{
-    margin-top: 120px;
+    margin-top: 60px;
     margin-bottom: 130px;
     padding: 0px 235px;
 }
